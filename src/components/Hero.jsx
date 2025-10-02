@@ -62,7 +62,7 @@ const Hero = () => {
   return (
 	<section id = 'hero'>
 		
-		<h1>Sundara <br/> Africa</h1>
+		{/*<h1>Driven by <br/> Light</h1>*/}
 		<img 
 		src='/images/sunny.png'
 		alt="hero-sun"

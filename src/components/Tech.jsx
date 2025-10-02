@@ -90,7 +90,10 @@ const Tech = () => {
                 </div>
 
                 <div className="md:col-span-6">
-                    <div  className="temp" />
+                    <div  className="bg-transparent text-6xl text-center top-1/2">
+                        <div className='text-white font-oswald' >Driven by</div>
+                        <div className='text-yellow font-bold'>Light</div>
+                    </div>
 
                 </div>
 
@@ -101,19 +104,13 @@ const Tech = () => {
             </div>
 
             <div className="bottom-grid">
-                <div id='tempy' className="md:col-span-2">
-                    <div  className="noisy" />
-                    <img src="/images/abt4.png" alt="grid-img-3" />
+                <div id='tempy' className="md:col-span-9">
+                    
+                    <img src="/images/rice-field.jpg" alt="grid-img-3"
+                    width={200}
+                    height={200} />
                 </div>
-
-                <div className="md:col-span-8">
-                    <div  className="noisy" />
-                    <img src="/images/temp-check.png" alt="grid-img-4" />
-                </div>
-                <div  id='tempy' className="md:col-span-2">
-                    <div  className="noisy" />
-                    <img src="/images/abt4.png" alt="grid-img-4" />
-                </div>
+               
             </div>
 
         </div>
