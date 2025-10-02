@@ -90,7 +90,7 @@ const About = () => {
 
 						<div className="team-card md:col-span-6" key={index}>
 							<figure>
-								<img src={member.image} alt={member.name} />
+
 							</figure>
 							<div className="card-body">
 								<h2 className="card-title">{member.name}</h2>
