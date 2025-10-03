@@ -51,7 +51,7 @@ const Hero = () => {
 		rotation: 180,
 		ease: "none"
 	  }, 0)
-		gsap.to(".hero-sun", {y:-100})
+		gsap.to(".hero-sun", {y:300})
 
 
 

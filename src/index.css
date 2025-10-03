@@ -108,7 +108,7 @@ body {
             @apply md:mt-32 mt-40 text-xl md:text-[12vw] leading-none text-center font-oswald text-yellow;
         }
         .hero-sun{
-            @apply absolute lg:top-100 md:top-50 lg:left-6/8 md:left-1/2;
+            @apply absolute lg:top-20 md:top-100 lg:left-1/16 ;
         }
 
         .left-leaf {
@@ -123,7 +123,7 @@ body {
             @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5;
 
             .content {
-                @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
+                @apply flex lg:flex-row-reverse flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
 
                 p{
                     @apply font-oswald text-6xl text-yellow max-w-xl;

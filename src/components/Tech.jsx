@@ -92,7 +92,7 @@ const Tech = () => {
                 <div className="md:col-span-6">
                     <div  className="bg-transparent text-6xl text-center top-1/2">
                         <div className='text-white font-oswald' >Driven by</div>
-                        <div className='text-yellow font-bold'>Light</div>
+                        <div className='text-yellow font-oswald'>Light</div>
                     </div>
 
                 </div>

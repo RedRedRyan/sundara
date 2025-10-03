@@ -96,7 +96,7 @@ const About = () => {
 								<h2 className="card-title">{member.name}</h2>
 								<p>{member.description}</p>
 								<div className=" mt-5 flex-center">
-									<a href={member.link} className="btn-link" target="_blank" rel="noopener noreferrer">
+									<a href={member.link} className="badge" target="_blank" rel="noopener noreferrer">
 										View
 									</a>
 								</div>
