@@ -40,9 +40,9 @@ const About = () => {
 			<div className="md:col-span-6">
 				<h1 className={'head'}>Mission</h1>
 				<p className='font-bold text-xl mt-20 mb-20 mr-10'>
-					Empower communities through innovative,
-					sustainable <text className="text-yellow">solar</text> drying solutions that improve food preservation,
-					reduce waste and contribute to economic growth through the efficient utilization of environment friendly
+					Empower communities through <text className="text-yellow">innovative</text>,
+					sustainable <text className="text-yellow">solar</text> drying <text className="text-yellow">solutions</text> that improve food preservation,
+					reduce waste and contribute to economic growth through the <text className="text-yellow">efficient</text> utilization of <text className="text-yellow">environment friendly</text>
 					technologies among small scale farmers.
 				</p>
 
@@ -53,9 +53,9 @@ const About = () => {
 				<div className="md:col-span-6">
 					<h1 className={'head'}>Vision</h1>
 					<p className='font-bold text-xl mt-20 mb-20 ml-10'>
-						To revolutionize food preservation with solar energy
-						so that communities will reduce waste and improve the quality of food
-						with sustainable economic enhancement through innovative ,appropriate solar drying technologies.
+						To revolutionize <text className="text-yellow">food preservation</text> with solar energy
+						so that communities will reduce waste and <text className="text-yellow">improve</text> the <text className="text-yellow">quality</text> of food
+						with sustainable economic enhancement through innovative ,appropriate <text className="text-yellow">solar</text> drying <text className="text-yellow">tech</text>nologies.
 
 					</p>
 

@@ -108,7 +108,7 @@ body {
             @apply md:mt-32 mt-40 text-xl md:text-[12vw] leading-none text-center font-oswald text-yellow;
         }
         .hero-sun{
-            @apply absolute lg:top-20 md:top-100 lg:left-1/16 ;
+            @apply absolute lg:top-20 md:top-100 lg:left-1/16;
         }
 
         .left-leaf {
