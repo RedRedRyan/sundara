@@ -18,13 +18,13 @@ const navLinks = [
     const teamList=[{
         name:'Faizal',
         image:'./images/faizal.png',
-        link:'https://www.facebook.com/sundara',
+        link:'https://www.linkedin.com/in/faizal-toloi-mwanza-11a979334/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         description:'Co-founder'
     },
     {
         name: "Benaiah",
         image:'./images/benaiah.png',
-        link:'https://www.benaiah.com',
+        link:'https://www.linkedin.com/in/benaiah-namunyu-0aa777247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         description:'Co-founder'
     }
     ];

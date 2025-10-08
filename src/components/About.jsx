@@ -52,9 +52,10 @@ const About = () => {
 					scrambleChars={".:"}
 
 				>
-
-					Empowering  farmers with solar cabinet dryers
-					reducing food losses, and increase incomes, by harnessing sustainable, eco-friendly technology.
+					Empower communities through innovative,
+					sustainable solar drying solutions that improve food preservation,
+					reduce waste and contribute to economic growth through the efficient utilization of environment friendly
+					technologies among small scale farmers.
 
 				</ScrambledText>
 
@@ -76,10 +77,9 @@ const About = () => {
 
 					>
 
-						A future where solar energy transforms food preservation
-						helping communities reduce waste, enjoy healthier food,
-						and grow stronger economies.
-
+						To revolutionize food preservation with solar energy
+						so that communities will reduce waste and improve the quality of food
+						with sustainable economic enhancement through innovative ,appropriate solar drying technologies.
 					</ScrambledText>
 
 				</div>

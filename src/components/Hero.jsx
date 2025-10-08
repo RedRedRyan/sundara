@@ -73,7 +73,7 @@ const Hero = () => {
 				<div className='space-y-5 hidden md:block'>
 					<p> Solar Cabinet Dryer</p>
 					<p className='subtitle'>
-						Thermo controlled vents <br/> and humidity sensors
+						Dry rice, coffee <br/> and fruits.
 					</p>
 				</div>
 			</div>
