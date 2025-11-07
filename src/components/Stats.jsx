@@ -20,28 +20,28 @@ export default function Stats() {
     ]
 
     return (
-        <div className="relative min-h-screen bg-white overflow-hidden">
+        <div className="relative min-h-screen bg-green overflow-hidden">
             {/* Top left green quarter circle */}
-            <div className="absolute top-0 left-0 w-20 h-20 bg-green rounded-br-full"></div>
+            {/*<div className="absolute top-0 left-0 w-20 h-20 bg-yellow rounded-br-full"></div>*/}
 
-            {/* Middle left green circle */}
-            <div className="absolute top-1/3 left-0 w-32 h-32 bg-green rounded-full -translate-x-1/2"></div>
+            {/*/!* Middle left green circle *!/*/}
+            {/*<div className="absolute top-1/3 left-0 w-32 h-32 bg-yellow rounded-full -translate-x-1/2"></div>*/}
 
-            {/* Right side large green circle */}
-            <div className="absolute bottom-0 right-0 w-96 h-96 bg-green rounded-tl-full"></div>
+            {/* Right side large yellow circle */}
+            {/*<div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow rounded-tl-full"></div>*/}
 
             {/* Right side medium circle */}
-            <div className="absolute top-1/3 right-12 w-24 h-24 bg-green rounded-full"></div>
+            {/*<div className="absolute top-1/3 right-12 w-24 h-24 bg-yellow rounded-full"></div>*/}
 
             {/* Right side small circle */}
-            <div className="absolute top-1/4 right-1/4 w-12 h-12 bg-green rounded-full"></div>
+            <div className="absolute top-1/4 right-1/4 w-12 h-12 bg-yellow rounded-full"></div>
 
             {/* Main content */}
             <div className="relative z-10 px-8 md:px-16 py-12 max-w-6xl mx-auto">
                 {/* Header */}
                 <div className="mb-12">
-                    <h1 className="text-4xl md:text-5xl font-oswald text-yellow mb-4 bg-green text-center h-20">SUNDARA AFRICA'S IMPACT</h1>
-                    <p className="text-gray-700 font-serif text-2xl mb-4">
+                    <h1 className="text-4xl md:text-5xl font-oswald text-yellow mb-4  text-center h-20 rounded-lg">SUNDARA AFRICA'S IMPACT</h1>
+                    <p className="text-white font-bold text-3xl mb-4">
                         In Kenya and Ethiopia, solar drying is gradually gaining traction.
                     </p>
                     <p className="text-gray-800 text-base leading-relaxed">
@@ -67,8 +67,8 @@ export default function Stats() {
 
                             {/* Text content */}
                             <div className="flex-grow">
-                                <h3 className="text-2xl font-oswald text-black mb-1">{item.title}</h3>
-                                <p className="text-gray-700 text-sm md:text-base">{item.description}</p>
+                                <h3 className="text-2xl font-oswald text-white mb-1">{item.title}</h3>
+                                <p className="text-gray-700 text-lg md:text-base">{item.description}</p>
                             </div>
                         </div>
                     ))}
