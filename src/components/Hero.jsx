@@ -71,9 +71,9 @@ const Hero = () => {
 			<div className='content'>
 				
 				<div className='space-y-5 hidden md:block'>
-					<p> Solar Cabinet Dryer</p>
+					<p> Preserving Africa's Food</p>
 					<p className='subtitle'>
-						Dry rice, coffee <br/> and fruits.
+						Driven by <br/> Light.
 					</p>
 				</div>
 			</div>

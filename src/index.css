@@ -155,6 +155,10 @@ body {
         @apply w-full h-[80px];
 
     }
+    #solar{
+        @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
+
+    }
     #tech{
         @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
         #smooth-content {

@@ -29,6 +29,31 @@ const navLinks = [
     }
     ];
 
+    const processList=[{
+        index: '01',
+        name:'Solar Collection',
+        image:'./images/panel.png',
+        description:'Solar panels capture sunlight to heat air or water.'
+    },
+    {
+        index: '02',
+        name: "Air Circulation",
+        image:'./images/air.png',
+        description:'Active or passive systems circulate warm air through the drying chamber'
+    },
+        {
+            index: '03',
+           name: "Removal of Moisture",
+           image: './images/hot.png',
+           description: 'The moist air is blown out, enabling proper dehydration'
+        },
+        {
+            index: '04',
+            name: "Storage Conditions",
+            image: './images/storage.png',
+            description: 'Dried products are stored under controlled conditions'
+        }]
+
    
    const storeInfo = {
     heading: "Where to Find Us",
@@ -72,6 +97,7 @@ const navLinks = [
     openingHours,
     storeInfo,
     socials,
-       teamList
+       teamList,
+       processList
    };
    

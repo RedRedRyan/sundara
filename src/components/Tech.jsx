@@ -68,7 +68,7 @@ const Tech = () => {
                     </div>
 
                     <div className="sub-content">
-                        <p>Ready to Transform Your Harvest?<br/>Robust engineering with smart software to make premium drying simple and accessible.
+                        <p>Solar drying <br/>is effective in the drying of farm produce. It is more efficient and clean compared to normal sub drying.
                         </p>
 
                         <div>
