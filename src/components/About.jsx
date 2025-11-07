@@ -19,15 +19,15 @@ const About = () => {
 			delay: 1,
 
 		});
-		gsap.timeline({
-			scrollTrigger: {
-				trigger: '#about',
-				start: 'top top',
-				end: 'bottom top',
-				scrub: true,
-			}
-		})
-			.to('.ray', {y: -300}, 0);
+		// gsap.timeline({
+		// 	scrollTrigger: {
+		// 		trigger: '#about',
+		// 		start: 'top top',
+		// 		end: 'bottom top',
+		// 		scrub: true,
+		// 	}
+		// })
+		// 	.to('.ray', {y: -300}, 0);
 
 	})
     return (
@@ -72,8 +72,9 @@ const About = () => {
 
 							</figure>
 							<div className="card-body">
-								<h2 className="card-title">{member.name}</h2>
+
 								<p>{member.description}</p>
+								<h3 className="flex-center text-2xl">{member.name}</h3>
 								<div className=" mt-5 flex-center">
 									<a href={member.link} className="badge" target="_blank" rel="noopener noreferrer">
 										View

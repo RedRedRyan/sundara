@@ -3,19 +3,19 @@
 export default function Stats() {
     const impactItems = [
         {
-            percentage: 30,
+            percentage: 500, // 5 times = 500% increase
             title: "Income Increase",
             description: "Mango farmers earn 5 times more through value addition.",
         },
         {
-            percentage: 30,
+            percentage: 60, // Assuming 60% reduction in post-harvest losses
             title: "Reduced PHL",
-            description: "40,000 Tonnes of Mangoes recovered Annually",
+            description: "40,000 Tonnes of Mangoes recovered annually, reducing losses by 60%",
         },
         {
-            percentage: 30,
+            percentage: 300, // Assuming 3x increase in farmer market access
             title: "Farmers Empowerment",
-            description: "Empowering 2,000+ mango farmers",
+            description: "Empowering 2,000+ mango farmers with 300% increase in market reach",
         },
     ]
 
@@ -67,8 +67,8 @@ export default function Stats() {
 
                             {/* Text content */}
                             <div className="flex-grow">
-                                <h3 className="text-2xl font-oswald text-white mb-1">{item.title}</h3>
-                                <p className="text-gray-700 text-lg md:text-base">{item.description}</p>
+                                <h3 className="text-3xl font-oswald text-white mb-1">{item.title}</h3>
+                                <p className="text-gray-700 text-xl font-extrabold">{item.description}</p>
                             </div>
                         </div>
                     ))}
